@@ -15,7 +15,7 @@ export function useCandidates(filters = {}) {
       .catch(err => setError(err.message))
       .finally(() => setLoading(false));
 
-  }, [filters]);
+  }, [JSON.stringify(filters)]);
 
   return { candidates, loading, error };
 }
