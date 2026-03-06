@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Django
+*.sqlite3
+staticfiles/
+
+# Environment variables (NEVER commit this)
+.env
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
